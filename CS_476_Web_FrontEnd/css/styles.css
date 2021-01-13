@@ -1,0 +1,415 @@
+body {
+ font-family: "Montserrat";
+}
+
+#title {
+ background-color: #f3c623;
+ color: #fff;
+}
+
+.title-container {
+ padding: 3% 15% 7%;
+}
+
+h1 {
+ font-family: "Montserrat";
+ font-weight: 900;
+ font-size: 3.5rem;
+ line-height: 1.5;
+}
+
+h2 {
+ font-family: "Montserrat";
+ font-weight: 900;
+ font-size: 1.5rem;
+}
+
+h3 {
+ font-family: "Montserrat";
+ font-size: 1.5rem;
+ font-weight: 900;
+}
+.col-prof h4, h3 {
+  color: white;
+}
+
+p {
+ color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+ padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+ font-family: "Ubuntu";
+ font-size: 2.5rem;
+ font-weight: bold;
+ color: #844685;
+}
+
+.nav-item {
+ padding: 0 18px;
+}
+
+.nav-link {
+ font-size: 1.2rem;
+ font-style: "Montserrat-Light";
+ color: #844685;
+}
+
+
+
+/* Dowload Buttons */
+.download-button {
+ margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+ width: 60%;
+ transform: rotate(25deg);
+ position: absolute;
+ right: 30%;
+}
+
+/* Features Section */
+#cities {
+ padding: 3% 7%;
+ background-color: #fff;
+}
+
+.feature-box {
+ text-align: center;
+ padding: 4%;
+}
+
+.icon-pic:hover {
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+.icon-pic {
+  width: 80%;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+/* Testimonials */
+#homeblogs {
+ background-color: #f3c623;
+}
+
+.carousel-item {
+ padding: 7% 13%;
+}
+
+.carousel-inner a {
+  color: black;
+}
+
+.homecards {
+  padding: 5% 3%;
+  padding-top: 0;
+}
+
+
+
+
+#contact {
+ padding: 100px;
+ text-align: center;
+}
+
+
+.contact-us {
+  background-color: #f3c623 ;
+}
+
+
+.footer-section {
+  background-color: #f3c623 ;
+}
+
+.social-icon {
+ margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+ #title {
+   text-align: center;
+ }
+ .icon-pic {
+   width: 40%;
+ }
+}
+
+.footer-div {
+  margin: 0;
+  padding: 1% 1%;
+}
+
+
+
+/* Login-Signup Forms */
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.signup-form{
+    padding: 5%;
+    background: #fff;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.signup-form h3{
+    text-align: center;
+    color: #844685;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #844685;
+}
+.signup-form .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #844685;
+}
+.signup-form .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #844685;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/*----------------------*/
+
+
+#id {
+  padding: 3% 15% 7%;
+margin: 5% 3% 5% 0;
+}
+.avatar {
+  border-radius: 50%;
+}
+
+.btn-save {
+  background-color: #f3c623;
+}
+
+/*----------------------*/
+
+
+.addblog-form h1 {
+  margin-top: 0;
+  font-weight: 200;
+  font-family: 'Dancing Script', cursive;
+}
+
+.addblog-form {
+
+  background: #f1f1f1;
+  opacity: 0.7;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+}
+
+.txtb{
+  border:1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #844685;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.btn-SendBlog{
+  display: inline-block;
+  background: #f3c623;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  text-decoration: none;
+}
+
+#add-blog {
+  background-color: #844685;
+}
+
+.vacation-image {
+  padding: 5% 10%;
+  width: 120%;
+  border-radius: 50%;
+}
+
+.list-group-item {
+  background-color: #f3c623;
+}
+
+.traveler-image {
+  padding: 15% 10%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+#temp-profile-info {
+  background-color:  #f3c623;
+}
+
+
+.login-right {
+  background-color: #844685;
+}
+
+.login-right h3 {
+  margin-top: 40%;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+
+body {
+  background-color: #f3c623;
+}
+
+#login-form {
+  background-color: white;
+}
+
+.title-log-container {
+ padding: 3% 15% 1%;
+}
+
+
+.title-sign-container {
+  padding: 3% 15% 1%;
+}
+
+.sign-left h3 {
+  margin-top: 40%;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.sign-left {
+  background-color: #844685;
+}
+
+.card-img-top {
+width: 100%;
+height: 40vh;
+object-fit: cover;
+}
+
+
+#settings-sec {
+  padding: 3% 15% 7%;
+}
+
+.title-settings-container {
+  padding: 3% 15% 1%;
+}
+
+.settings-form {
+      padding: 5%;
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.settings-form h3 {
+      text-align: center;
+      color: #333;
+}
+
+.plane {
+  font-size: 60px;
+}
+
+.settings-writing {
+  margin-top: 8;
+}
+
+
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.searchingbut {
+  color: #f3c623;
+  background-color: black;
+}
+
+.col-prof {
+  background-color: #844685;
+  border-style: 3px solid;
+}
+
+.col-prof h4 h6{
+  color: white;
+}
+

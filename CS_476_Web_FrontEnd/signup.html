@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>smarTourist</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'smarTourist/style.css' %}">
+
+  <!-- Logos -->
+  <script src="https://kit.fontawesome.com/fe9d722e68.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid title-sign-container">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">smarTourist</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#login-sign">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section id="sign-sec">
+
+
+    <div class="container login-container" id="login-form">
+      <div class="row">
+        <div class="feature-box col-lg-6 sign-left">
+          <h3>Join us right now!</h3>
+        </div>
+        <div class="col-md-6 signup-form">
+          <h3>Signup</h3>
+          <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                 <input type="text" class="form-control"
+                     placeholder="Enter your name.." name="firstName" required>
+                 </div>
+                 <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Enter your surname.." name="lastName" required>
+                 </div>
+                 <div class="form-group">
+                     <input type="email" class="form-control" placeholder="Enter your email.." name="email" required>
+                 </div>
+                 <div class="form-group">
+                     <input type="password" class="form-control" placeholder="Enter your password.." name="password" required>
+                 </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter image URL.." name="user_IMG">
+                  </div>
+                 <div class="form-group">
+                    <input type="submit" class="btnSubmit" value="Sign Up" />
+                </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer-section" id="footer">
+    <div class="footer-div container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2020 smarTourist</p>
+    </div>
+  </footer>
+</body>
+
+
+</html>
